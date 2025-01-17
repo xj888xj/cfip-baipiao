@@ -65,7 +65,7 @@ def main(port):
     process_ipinfo(ipinfo, port)
 
 if __name__ == "__main__":
-    ports = [443, 2053, 2083, 2087, 2096, 8443]  # 可以在这里添加更多端口
+    ports = [443, 80]  # 可以在这里添加更多端口
     for port in ports:
         print(f"Processing port: {port}")
         main(port)
