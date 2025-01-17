@@ -71,5 +71,5 @@ def main(port):
     process_ipinfo(ipinfo, port)
 
 if __name__ == "__main__":
-    main(2053)
+    main(80)
     print("Done!")
