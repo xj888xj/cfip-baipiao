@@ -1,4 +1,4 @@
-name: cfip
+name: Allporst cfip
 
 on:
   workflow_dispatch:
