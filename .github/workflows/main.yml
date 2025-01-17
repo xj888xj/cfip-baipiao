@@ -35,10 +35,10 @@ jobs:
     - name: 安装依赖
       run: pip install -r ./requirements.txt
 
-    - name: 运行 main.py
+    - name: 运行 443端口
       run: python main.py
 
-    - name: 运行 main2.py
+    - name: 运行 80端口
       run: python main2.py
 
     - name: 提交并推送更改
